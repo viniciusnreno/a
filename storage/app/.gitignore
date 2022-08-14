@@ -1,0 +1,11 @@
+*
+!public/
+!.gitignore
+!Whatsapp.json
+!lojas-assai.csv
+!lojas-atacadao.csv
+!lojas-big.csv
+!lojas-big-super.csv
+!lojas-carrefour.csv
+!lojas-compre-bem.csv
+!lojas-pao-de-acucar.csv

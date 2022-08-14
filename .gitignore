@@ -1,0 +1,13 @@
+_mreno
+.env
+storage/app/public/_upload/
+!storage/app/public/Whatsapp.json
+public/storage/
+public/storage
+!storage/app/lojas-assai.csv
+!storage/app/lojas-atacadao.csv
+!storage/app/lojas-big.csv
+!storage/app/lojas-big-super.csv
+!storage/app/lojas-carrefour.csv
+!storage/app/lojas-compre-bem.csv
+!storage/app/lojas-pao-de-acucar.csv

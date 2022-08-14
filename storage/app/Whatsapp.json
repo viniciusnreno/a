@@ -1,0 +1,153 @@
+{
+    "receive": {
+        "menu": {
+            "response": {
+                "type": "message",
+                "text": "Texto do menu"
+            }
+        },
+        "regras": {
+            "response": {
+                "type": "message",
+                "text": "Texto das regras",
+                "next": "consultar"
+            }
+        },
+        "cadastrar": {
+            "response": {
+                "type": "action",
+                "action": {
+                    "class": "App\\Models\\WhatsappUser",
+                    "method": "createUser",
+                    "params": {
+                        "mobile": "message.from"
+                    },
+                    "fields": ["mobile"],
+                    "text": "*Promo PANCO*: Estamos muito contentes com a sua participação! Para prosseguir, por favor, informe seu nome completo."
+                }
+            }
+        },
+        "cancelar": {
+            "response": {
+                "type": "action",
+                "action": {
+                    "class": "App\\Models\\WhatsappChat",
+                    "method": "deleteChat",
+                    "params": {
+                        "mobile": "message.from"
+                    },
+                    "fields": ["mobile"],
+                    "text": "*Promo PANCO*: O envio do seu cupom foi cancelado. Você pode iniciar o envio de um novo cupom digitando CUPOM."
+                }
+            }
+        },
+        "cupom": {
+            "response": {
+                "type": "action",
+                "action": {
+                    "class": "App\\Models\\WhatsappChat",
+                    "method": "createChat",
+                    "params": {
+                        "mobile": "message.from"
+                    },
+                    "fields": ["mobile"],
+                    "text": "*Promo PANCO*: Agora, por favor, nos envie uma foto legível do cupom fiscal de compra dos produtos participantes, contendo a descrição do(s) produto(s) vendido(s) e os dados do cupom fiscal (CNPJ, nº do cupom e data de emissão). Todos esses dados devem estar legíveis. Envie somente uma foto, as demais serão desconsideradas!"
+                }
+            }
+        },
+        "consultar": {
+            "response": {
+                "type": "action",
+                "action": {
+                    "class": "App\\Models\\User",
+                    "method": "findUser",
+                    "params": {
+                        "mobile": "contact.uid"
+                    },
+                    "fields": ["name"],
+                    "text": "O seu nome é %s"
+                }
+            }
+        },
+        "opa": {
+            "response": {
+                "type": "message",
+                "text": "Texto Opa"
+            }
+        }
+    },
+    "send": {
+        "hello": {
+            "type": "message",
+            "text": "*Promo PANCO*: Seja bem-vindo à promoção *Fome de Aprender*! O nosso WhatsApp é um sistema automatizado para você ter acesso às informações da Promoção. Você pode usar este canal para o fazer o seu cadastro, informando os dados do cupom fiscal de compra e seus dados pessoais ou fazer seu cadastro através do site https://promopanco.com.br. \n\n*Promo PANCO*: Para participar desta promoção por este canal, precisaremos coletar seus dados pessoais e para tanto, é importante que você concorde com a nossa Política de Privacidade disponível em https://www.panco.com.br/politica-de-privacidade. Se leu e está de acordo, por favor, digite a palavra CADASTRAR."
+        },
+        "start": {
+            "type": "message",
+            "text": "*Promo PANCO*: Desculpe, não entendi sua solicitação. Gostaria de enviar um cupom? Se sim, digite a palavra CUPOM”."
+        },
+        "cadastro-sucesso": {
+            "type": "message",
+            "text": "Vamos iniciar o envio do cupom? Para começar envie a palavra CUPOM."
+        },
+        "finalizado-sucesso": {
+            "type": "action",
+            "action": {
+                "class": "User",
+                "method": "getLastCupom",
+                "text": "O seu cupom %s foi cadastrado com sucesso."
+            }
+        },
+        "stepInvoice": {
+            "type": "message",
+            "text": "*Promo PANCO*: Agora, por favor, nos envie uma foto legível do cupom fiscal de compra dos produtos Panco Participantes, contendo a descrição do(s) produto(s) vendido(s) e os dados do cupom fiscal (CNPJ, nº do cupom e data de emissão). Todos esses dados devem estar legíveis. Por favor envie somente uma foto, as demais serão desconsideradas!"
+        },
+        "stepCNPJ": {
+            "type": "message",
+            "text": "*Promo PANCO*: Por favor, digite o número do CNPJ do estabelecimento emitente."
+        },
+        "stepCompanyName": {
+            "type": "message",
+            "text": "*Promo PANCO*: Por favor, digite o nome do estabelecimento onde adquiriu os produtos."
+        },
+        "stepCouponNumber": {
+            "type": "message",
+            "text": "*Promo PANCO*: Certo. Agora nos informe o número do cupom fiscal enviado."
+        },
+        "stepBuyDate": {
+            "type": "message",
+            "text": "*Promo PANCO*: Qual a data de emissão? Digite no formato DD/MM/AAAA. Por favor não esqueça de colocar as barras separando os números."
+        },
+        "stepBuyState": {
+            "type": "message",
+            "text": "*Promo PANCO*: Obrigado. Agora digite o estado em que a compra foi realizada."
+        },
+        "stepProducts": {
+            "type": "message",
+            "text": "*Promo PANCO*: Digite agora a letra do produto que corresponde ao produto participante adquirido. Os produtos participantes são: \n%s\n Digite a *letra* que identifica o produto adquirido. *Digite um produto por vez*."
+        },
+        "stepSimpleProduct": {
+            "type": "message",
+            "text": "*Promo PANCO*: Digite agora a quantidade de produtos adquiridos."
+        },
+        "stepPrize": {
+            "type": "message",
+            "text": "*Promo PANCO*: Após a validação do seu cupom, qual prêmio gostaria de ganhar?. Temos 2 opções possíveis. Escolha o seu prêmio digitando o número correspondente: \n%s\n Digite o *número* que identifica o prêmio desejado."
+        },
+        "stepPrizeStore": {
+            "type": "message",
+            "text": "*Promo PANCO*: Caso você ganhe o prêmio instantâneo, escolha uma loja para resgatá-lo*: \n%s\n Digite o *número* que identifica a loja desejada."
+        },
+        "stepRequiredProduct": {
+            "type": "message",
+            "text": "*Promo PANCO*: Ótimo. Você confirma a compra de pelo menos 1 (um) Arroz Panco?"
+        },
+        "stepAmount": {
+            "type": "message",
+            "text": "*Promo PANCO*: Ótimo. Agora digite o valor total de produtos Panco adquiridos."
+        },
+        "stepLast": {
+            "type": "message",
+            "text": "*Promo PANCO*: Estamos finalizando o cadastro do seu cupom. Aguarde alguns instantes."
+        }
+    }
+}
