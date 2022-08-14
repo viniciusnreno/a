@@ -9,7 +9,7 @@
             <div class="col s12">
                 <div class="row">
                     <div class="col m6 s12">
-                        <h3 class="titulo">
+                        <h3 class="titulo"> 
                             Já é cadastrado?<br class="hide-on-med-and-up"> <br class="hide-on-small-only">
                             Faça o seu login :)
                         </h3>
