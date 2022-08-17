@@ -748,7 +748,7 @@ Topo
 #popup-produtos .topo {padding-top: 3px;}    
 
 @media only screen and (min-width: 601px) {  
-    #popup-telefone .topo { margin-top: 37px; margin-bottom: 37px;}    
+    #popup-telefone .topo { margin-top: 45px; margin-bottom: 45px;}    
     #popup-cadastro .topo { margin-top: 38px; margin-bottom: 38px;}    
     #popup-regulamento .topo { margin-top: 40px; margin-bottom: 55px;}    
     #popup-fale-conosco .topo { margin-top: 10px; margin-bottom: 10px;}    
@@ -795,12 +795,12 @@ Popup (lightbox)
     .popup {padding:25px 85px 30px 85px;}
     .popup .p-wrapper {border-radius: 0px;} 
     .popup .logado-border {padding: 5px 25px 5px 10px !important;} 
-    .popup .topo h1 {width: 450px; margin: 0 auto; line-height: 1.3; font-size: 21px; margin: 0 auto; width: 90%; margin-top: -20px; }
+    .popup .topo h1 {width: 450px; margin: 0 auto; line-height: 1; font-size: 21px; margin: 0 auto; width: 90%; margin-top: -20px; }
     .popup .topo {padding-top: 0px; margin-bottom: 35px; margin-top: 10px;}
-    #popup-fale-conosco .center {    margin-bottom: 61px; margin-top: 61px;}
+    #popup-fale-conosco .center {    margin-bottom: 30px; margin-top: 30px;}
 }
 @media only screen and (min-width: 1024px) {
-    .popup .topo h1 { font-size: 26px; }
+    .popup .topo h1 { font-size: 40px; }
     .popup { width:900px;  } 
     .popup .topo p { font-size: 22px; line-height: 28px }
     
@@ -942,9 +942,9 @@ Popup: Celular
 .popup .p-wrapper .cadastro p { margin-bottom:5px; font-family: "robotoc-regular"; }
 #popup-telefone .senha { text-align: center; margin-top:15px; display: block; color:#0f1010; text-decoration: underline; }
 #popup-telefone .btn-nao-cadastrado:hover,
-#popup-telefone .btn-nao-cadastrado {width: 294px; font-family: "robotoc-regular"; font-weight: bold; font-size: 30px !important; line-height: 2.1; height: 57px; }
+#popup-telefone .btn-nao-cadastrado {width: 294px; font-family: 'amatic'; font-weight: bold; font-size: 30px !important; line-height: 1.8; height: 57px; }
 #popup-telefone .btn-entrar:hover,
-#popup-telefone .btn-entrar {line-height: 1; width: 285px;font-family: "robotoc-regular"; font-weight: bold; font-size: 32px !important; height: 56px;}
+#popup-telefone .btn-entrar {line-height: 1; width: 285px;font-family: 'amatic'; font-weight: bold; font-size: 32px !important; height: 56px;}
 
 .file-field .file-path-wrapper { padding-left:45px }
 
