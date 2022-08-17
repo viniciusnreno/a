@@ -16,12 +16,12 @@
                 <li><a class="link-popup" href="#popup-enviar">enviar</a></li>
                 <li><a class="link-popup" href="#popup-enviar-postagem">enviar postagem</a></li>
                 <li><a class="link-popup" href="#popup-enviar-sucesso">sucesso</a></li> -->
-                <li><a id="menuCadastrarCupom" class="link-popup" href="#popup-cupom" id="menu-cadastrar">CADASTRAR CUPOM</a></li>
                 @guest
                 <li><a class="link-popup-telefone" href="#popup-cadastro">CADASTRE-SE</a></li>
                 <li class="login"><a class="btn waves-effect waves-light link-popup-telefone" href="#popup-telefone"><i class="material-icons">person</i>LOGIN</a></li>
                 @endguest
                 @auth
+                <li><a id="menuCadastrarCupom" class="link-popup" href="#popup-cupom" id="menu-cadastrar">CADASTRAR CUPOM</a></li>
                 <li><a class="link-popup" href="#popup-minhas-participacoes">MINHA PARTICIPAÇÃO</a></li>
                 <li class="right"><a href="#" onclick="document.getElementById('logout-form').submit();">SAIR</a></li>
                 <li class="right"><a class="link-popup nome-logado" href="#popup-atualizar">Olá <?php print Auth::user()->name; ?></a></li>

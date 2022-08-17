@@ -4,7 +4,7 @@
    
 	@include('include.menu')
 	@include('include.box-principal')
-	<!-- @include('include.box-participar') -->
+	@include('include.box-participar')
 	@include('include.box-premios')
 	@include('include.box-produtos')
 	@include('include.box-ganhador')
@@ -30,8 +30,8 @@
 	@include('include.popup-cadastro')
 	@include('include.popup-recuperar-senha')
 	
-	@include('include.popup-logado-cadastrar-cupom')
 	@auth
+		@include('include.popup-logado-cadastrar-cupom')
 		@include('include.popup-logado-atualizar')
 		@include('include.popup-logado-minhas-participacoes')
 	@endauth

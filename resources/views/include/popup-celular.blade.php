@@ -1,8 +1,7 @@
 <section id="popup-telefone" class="zoom-anim-dialog mfp-hide popup bg-popup"> 
     <img class="logo" src="/assets/images/geral-logo.png">
     <div class="topo center topo-telefone">
-        <!-- <h1>Aqui começa sua viagem para <br>
-        a final da Copa do Mundo!</h1> -->
+        <h1>Login/cadastro</h1>
     </div>
     <div class="p-wrapper fluid formLogin">
         <div class="row">

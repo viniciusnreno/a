@@ -273,35 +273,39 @@ Box Participar
 .box-participar { text-align:center;  }
 .box-participar .container { height: 2138px; position:relative; }
 .box-participar h1 {margin-bottom: 0;}
-.box-participar .whats-ddd {display: inline; font-size: 18px;  padding-right: 2px;}
-.box-participar .whats-num {font-size: 28px; display: inline;}
-.box-participar .whats-img {width: 32px; position: relative; left: 6px; top: 3px;}
-.box-participar p { margin: 0; line-height: 1; font-size: 23px;  font-family: 'robotoc-regular'; color: #fff; }
-.box-participar strong  {font-family: 'robotoc-regular'; color: #fff; display: inline-block; font-weight: bold; font-size: 29px;}
-.box-participar small { font-size: 11px; }
-.box-participar .row {margin: 25px auto 0 auto; max-width: 740px;}
+.box-participar .whats-ddd {display: inline; font-size: 28px;  padding-right: 2px;}
+.box-participar .whats-num {font-size: 38px; display: inline;}
+.box-participar .whats-img {width: 32px; position: relative; left: 6px; bottom: 1px;}
+.box-participar p { margin: 0; line-height: 1; font-size: 33px; font-family: 'amatic'; color: #fff; }
+/* .box-participar strong  {color: #000; display: inline-block; font-weight: bold; font-size: 29px;} */
+.box-participar small { font-size: 19px; display: block;}
+.box-participar span { color: #000}
+.box-participar strong { color: #FFD34D; font-weight: normal;}
+.box-participar .row {margin: 60px auto 0 ; max-width: 1024px}
 .box-participar .col {padding: 0;}
-.box-participar .cafu-participar {width: 207px; height: 502px;}
+.box-participar .num { line-height: 1.2; font-size: 34px; color: #FFD34D; background: black; width: 45px; height: 45px; border-radius: 27px; margin: 0 auto;}
+.box-participar .btn:hover,
+.box-participar .btn {line-height: 1; border-radius: 13px; font-family: 'amatic'; height: auto;}
 
-.box-participar .p1 {left: 65px; top: 10px; padding-top: 50px; width: 215px; background: url('/assets/images/bg-1.png') no-repeat;position: relative;}
-.box-participar .p2 {left: 12px; padding-top: 50px; width: 246px; margin-top: 22px; background: url('/assets/images/bg-2.png') no-repeat;position: relative;}
-.box-participar .p3 {top: 33px; right: 45px; padding-top: 45px; width: 228px; background-position: right top !important; background: url('/assets/images/bg-3.png') no-repeat;position: relative;}
-.box-participar .p4 {right: 10px; padding-top: 51px; width: 268px; margin-top: 28px; background-position: right top !important; background: url('/assets/images/bg-4.png') no-repeat;position: relative;}
+.box-participar .p1 small { margin: 3px 0 8px 0;}
+.box-participar .p1 span {font-size: 71px;}
+.box-participar .p1 .rs {font-size: 42px; position: relative; bottom: 10px;}
 
-.box-participar .p1 strong {margin: 7px 0 0 0}
-.box-participar .p1 small { display: block;}
+.box-participar .p2 .btn:hover, 
+.box-participar .p2 .btn {font-size: 36px !important; padding: 1px 25px 8px 25px; margin-top: 9px;} 
+.box-participar .p2 small {margin: 4px 0 6px 0;}
+.box-participar .p2 .imagem-guarde {margin: 5px 0 0 0;}
 
-.box-participar .p2 p { font-size: 21.5px;}
-.box-participar .p2 small { font-size: 15px;}
-.box-participar .p2 strong {    line-height: 1.4;}
-.box-participar .p2 .btn-aqui img {margin: -6px 0 -13px 0;}
+.box-participar .p3 .btn:hover, 
+.box-participar .p3 .btn {font-size: 32px !important; margin: 3px 0 7px 0; padding: 1px 13px 8px 13px;} 
+.box-participar .p3 .big {font-size: 70px; }
+.box-participar .p3 span {font-size: 36px; }
+.box-participar .p3 small {margin-bottom: 3px; } 
 
-.box-participar .p3 small {    font-size: 16px; line-height: 2;}
-.box-participar .p3 .btn-eu-quero img {margin-top: -10px;}
-
-.box-participar .p4 strong { font-size: 24px;margin: 5px 0 0 0}
-.box-participar .p4 small { display: block; font-size: 16px; margin-top: 3px;}
-.box-participar .p4 .btn-saiba-mais img {margin-top: -10px;}
+.box-participar .p4 .btn:hover, 
+.box-participar .p4 .btn {font-size: 32px !important; margin: 10px 0 0 0; padding-bottom: 7px} 
+.box-participar .p4 .n50 {font-size: 70px; } 
+.box-participar .p4 span{font-size: 62px; } 
 
 @media only screen and (min-width: 601px) {
     .box-participar .container { height: 590px; position:relative; }
@@ -351,7 +355,7 @@ Box Premios
 .box-premios span {color: #FFD34D;} 
 
 #box-premios1 p {font-size: 2.01vw; margin: -0.37vw 0 0 0; } 
-#box-premios1 .box-texts {display: flex; justify-content: space-between; width: 80.82vw; margin: 0 auto; padding-top: 15.67vw;} 
+#box-premios1 .box-texts {display: flex; justify-content: space-between; width: 80.82vw; margin: 0 auto; padding-top: 15.67vw;     max-width: 1346px !important;} 
 #box-premios1 .box-texts .txt2 {position: relative; left: 1.49vw; bottom: 1.12vw;} 
 #box-premios1 .box-texts .txt1 img {width: 4.63vw;} 
 #box-premios1 .box-texts .txt2 img {width: 5.3vw;} 
@@ -620,7 +624,7 @@ Popup Sorteio
 .ganhadores .title { position: relative; font-weight: bold; text-align: center; padding: 8px 0 3px 0; font-family: 'robotoc-regular'; font-size: 18px; background-color: #A9E5A7; color: #004A2D; justify-content: center; } 
 .ganhadores .title-big i ,
 .ganhadores .title i {position: absolute; right: 0; } 
-.ganhadores .body {padding-top: 15px !important; color: #00804D;padding-bottom: 15px;  text-align: center; font-size: 18px; font-family: 'robotoc-regular'; }
+.ganhadores .body {padding-top: 15px !important; color: #FFD34D;padding-bottom: 15px;  text-align: center; font-size: 18px; font-family: 'robotoc-regular'; }
 .ganhadores .title-big {position: relative; font-weight: bold; text-align: center;padding: 15px 0 8px 0 ;font-family: 'robotoc-regular'; font-size: 21px; background-color: #A9E5A7; color: #004A2D; justify-content: center;  }
 .ganhadores .header-1 {padding-top: 0;}
 .ganhadores .header-1 img {margin: 5px 0 -16px 0; width: 174px;}
@@ -761,7 +765,7 @@ Popup (lightbox)
 @media only screen and (min-width: 601px) {
     #popup-duvidas h1 {font-size: 26px;}
     .popup .h1-cadastro h1 { width: 480px !important;}
-    .popup .logo {position: absolute; left: 20px; top: 10px; width: 114px;}
+    .popup .logo {position: absolute; left: 20px; top: 20px; width: 145px;}
     footer .nav li {float: left;}
     footer .novas-datas {width: 485px;} 
     .popup {padding:25px 85px 30px 85px;}
@@ -884,11 +888,11 @@ AnimaÃ§Ãµes do Popup
 /******************
 Popup: Cadastro
 *****************/
-#popup-cadastro .cadastro-txt-check {color: #00804D; font-weight: 500;}
+#popup-cadastro .cadastro-txt-check {color: #FFD34D; font-weight: 500;}
 #popup-cadastro .btns-cadastro { padding-top: 40px;padding-top: 40px; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap;}
 #popup-cadastro .btn:focus,
 #popup-cadastro .btn {    width: 285px; font-size: 32px !important; height: 56px;}
-#popup-cadastro .voltar-cadastro {  color: #00804D; font-size: 32px; font-weight: bold; margin-left: 0px;}
+#popup-cadastro .voltar-cadastro {  color: #FFD34D; font-size: 32px; font-weight: bold; margin-left: 0px;}
 
 
 .popup .p-wrapper .check-regulamento { margin-top: 27px }
@@ -896,9 +900,9 @@ Popup: Cadastro
 .pad-left .margin-top {margin-top: 15px; display: inline-block;}
 .link-popup-telefone { margin-bottom:0 }
 .reg:hover,
-.reg {text-decoration: none; color: #00804D; font-weight: 500; }
+.reg {text-decoration: none; color: #FFD34D; font-weight: 500; }
 .reg-novo:hover,
-.reg-novo {text-decoration: none; color: #00804D !important; font-weight: 500;}
+.reg-novo {text-decoration: none; color: #FFD34D !important; font-weight: 500;}
 
 @media only screen and (min-width: 601px) {
     #popup-cadastro .voltar-cadastro {margin-left: 118px;margin-bottom: 8px;}
@@ -1119,7 +1123,7 @@ Popup Produtos Participantes
 *****************/
 #popup-produtos .title { padding-top: 10px;}
 #popup-produtos ul {width: 90%; margin: 30px auto 0 auto;}
-#popup-produtos li { padding: 11px 0 6px 0; font-size: 13px;  text-align: center; color: #00804D; font-family: 'robotoc-regular'; }
+#popup-produtos li { padding: 11px 0 6px 0; font-size: 13px;  text-align: center; color: #FFD34D; font-family: 'robotoc-regular'; }
 #popup-produtos li.colored {background-color: #A9E5A7; padding: 14px 0 9px 0; color: #004A2D;}
 #popup-produtos li.colored.big {font-size: 19px; font-weight: bold; padding: 8px 0 5px 0;}
 
