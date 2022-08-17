@@ -1,5 +1,5 @@
 <section id="popup-recuperar-senha" class="zoom-anim-dialog mfp-hide popup bg-popup">
-    <img class="logo" src="/assets/images/logo-home.png">
+    <img class="logo" src="/assets/images/geral-logo.png">
     <div class="topo center">
     </div>
     <div class="p-wrapper fluid formLogin">

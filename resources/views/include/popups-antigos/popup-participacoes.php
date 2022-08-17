@@ -1,6 +1,6 @@
 <section id="popup-participacoes" class="zoom-anim-dialog minhas-participacoes mfp-hide popup bg-popup">
     <div class="topo center">
-        <img class="logo" src="/assets/images/logo-home.png" />
+        <img class="logo" src="/assets/images/geral-logo.png" />
         <h1>
         PRONTO! É SÓ ENVIAR A FOTO DE SEU CUPOM FISCAL E COMEÇAR A TREINAR!
         </h1>

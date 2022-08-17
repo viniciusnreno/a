@@ -1,5 +1,5 @@
 <section id="popup-nao-enviar" class="zoom-anim-dialog mfp-hide popup popup-status popup-nao-enviar bg-color">
-    <img class="logo-status" src="/assets/images/logo-home.png">
+    <img class="logo-status" src="/assets/images/geral-logo.png">
     <p>
     Informe a rede social de sua postagem quando<br>
     quiser acessando o menu e clicando em<br>

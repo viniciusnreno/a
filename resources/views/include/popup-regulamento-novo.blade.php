@@ -1,5 +1,5 @@
 <section id="popup-regulamento-novo" class="zoom-anim-dialog regulamento mfp-hide popup bg-popup">
-    <img class="logo" src="/assets/images/logo-home.png"> 
+    <img class="logo" src="/assets/images/geral-logo.png"> 
     <div class="topo center">
         <h1>Regulamento</h1>
     </div>

@@ -20,19 +20,21 @@
             </div>
         </div>    
     </div>
+    <p class="text-small">*1 pote para cada compra de R$ 50,00 em produtos Broto Legal participantes por <br>
+cupom fiscal. Limite de até 3 potes por CPF. Sujeito à disponibilidade de estoque.</p>
 </section>
 
 <section id="box-premios2" class="box box-premios scrollspy">
     <div class="container">
         <img class="logo hide-on-med-only" src="/assets/images/geral-logo.png" alt="Promoção Cartao VIP Toshiba">
         <h1>SORTEIO  EM  00/00/22</h1>
-        <p class="txt1">Suas  receitas  Broto Legal <br>
-        com  muito  mais <br>
-        praticidade  E  SABOR!</p>
-        <p class="txt2">SUGESTÃO DE UTILIZAÇÃO DO PRÉMIO <br>
-        **Kits de panelas elétricas entregues por meio de<br>
-        cartões-presentes pré-pagos, sem função saque.</p>
     </div> 
+    <p class="txt1">Suas  receitas  Broto Legal <br>
+    com  muito  mais <br>
+    praticidade  E  SABOR!</p>
+    <p class="txt2">SUGESTÃO DE UTILIZAÇÃO DO PRÉMIO <br>
+    <small>**Kits de panelas elétricas entregues por meio de<br>
+    cartões-presentes pré-pagos, sem função saque.</small></p>
 </section>
 
 

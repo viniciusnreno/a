@@ -1,5 +1,5 @@
 <section id="popup-privacidade" class="zoom-anim-dialog regulamento mfp-hide popup bg-popup">
-    <img class="logo" src="/assets/images/logo-home.png"> 
+    <img class="logo" src="/assets/images/geral-logo.png"> 
     <div class="topo center">
         <h1>Politica e Privacidade</h1>
     </div>

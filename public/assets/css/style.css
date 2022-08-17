@@ -329,7 +329,7 @@ Box Produtos
 .box-produtos .container {position: relative;}
 .box-produtos p {font-family: 'amatic'; font-size: 35px; margin: 23px 0 0 0; padding-bottom: 48px;}
 .box-produtos a {color: #000; text-decoration: underline;}
-.box-produtos .pack {width: 891px; margin-top: 35px;}
+.box-produtos .pack {width: 891px; margin-top: 35px;    max-width: 100%;}
 
 
 
@@ -346,9 +346,9 @@ Box Produtos
 /******************
 Box Premios
 *****************/  
-#box-premios1 { text-align:center; position: relative; background: url('/assets/images/bg-premios1.jpg') no-repeat; background-position: center; background-size: 132.24vw; }
-#box-premios2 { text-align:center; position: relative; background: url('/assets/images/bg-premios2.jpg') no-repeat; background-position: center; background-size: 132.24vw; }
-.box-premios .container { position:relative; height: 44.9vw; text-align: center; } 
+#box-premios1 { text-align:center;height: 44.9vw;  position: relative; background: url('/assets/images/bg-premios1.jpg') no-repeat; background-position: center; background-size: 132.24vw; }
+#box-premios2 { text-align:center;height: 44.9vw;  position: relative; background: url('/assets/images/bg-premios2.jpg') no-repeat; background-position: center; background-size: 132.24vw; }
+.box-premios .container { position:relative; text-align: center; } 
 .box-premios .row {margin: 0;}
 .box-premios .col {padding: 0;}
 .box-premios p { margin: 0;line-height: 1.2; word-spacing: 3px; color: #fff; font-family: 'amatic';} 
@@ -359,9 +359,32 @@ Box Premios
 #box-premios1 .box-texts .txt2 {position: relative; left: 1.49vw; bottom: 1.12vw;} 
 #box-premios1 .box-texts .txt1 img {width: 4.63vw;} 
 #box-premios1 .box-texts .txt2 img {width: 5.3vw;} 
+#box-premios1 .text-small {font-size: 9px; color: #000; font-family: 'robotoc-regular'; font-weight: bold; word-spacing: normal;} 
 
 #box-premios2 p {color: #000; line-height: 1;}
-#box-premios2 .txt1 {padding: 300px 0 0 229px; font-size: 50px; float: left;}
+#box-premios2 .txt2 {font-size: 12px; font-family: 'robotoc-regular'; font-weight: bold;}
+#box-premios2 .txt2 small {font-size: 10px;}
+
+
+@media only screen and (min-width: 601px) {    
+    #box-premios2 .txt1 {position: relative; padding: 22.39vw 0 0 17.09vw; font-size: 3.73vw; float: left;}
+    #box-premios2 .txt2 {position: absolute; bottom: 3.73vw; right: 0.82vw; }
+    
+    #box-premios1 .text-small {position: absolute; bottom: 3.73vw; right: 0.82vw;} 
+}
+@media only screen and (min-width: 1024px) { 
+    #box-premios2 .txt1 {     padding: 19.39vw 0 0 18.09vw;}
+}
+
+@media only screen and (min-width: 1255px) { 
+    #box-premios1 .text-small {right: 5.82vw;} 
+    #box-premios2 .txt1 {     padding: 21.39vw 0 0 18.09vw;}
+}
+
+@media only screen and (min-width: 1346px) {                                                 
+    #box-premios2 .txt1 {position: relative; padding: 22.39vw 0 0 17.09vw;}
+}
+
 
 
 
@@ -432,15 +455,16 @@ Box Duvidas
 Box Ganhador
 *****************/   
 .box-ganhador { text-align: center; } 
-.box-ganhador .container {position: relative; height: 865px;}
-.box-ganhador .list {width: 636px; background-color: #fff; margin: 50px auto 0 auto}
-.box-ganhador ul {width: 556px; margin: 0 auto; padding: 42px 0; }
+.box-ganhador .container {position: relative; height: 1000px;}
+.box-ganhador .list {width: 636px; max-width: 90%; background-color: #fff; margin: 50px auto 0 auto}
+.box-ganhador ul {width: 556px;max-width: 90%; margin: 0 auto; padding: 42px 0; }
 .box-ganhador strong {font-weight: bold;} 
 .box-ganhador li {font-size: 19px; font-family: 'robotoc-regular'; color: #E31F27;letter-spacing: 0.8px; padding: 5px 0 }
 .box-ganhador li.colored {background-color: #FFE9A6;}
 
 @media only screen and (min-width: 601px) {
-
+    .box-ganhador .container { height: 865px;}
+    
 }
 @media only screen and (min-width: 1024px) { 
 
@@ -661,8 +685,8 @@ footer { background-color: #ED5C41;}
 footer .novas-datas {background-color: #FBF288; text-align: center; margin: 0 auto; width: 288px;} 
 footer .novas-datas a:hover,
 footer .novas-datas a {display: inline-block; color: #FFD34D; font-size: 15px; font-family: 'robotoc-regular'; padding: 4px;}
-footer .nav { margin: 0 auto; width: 108px; padding: 0; }
-footer .nav a {font-size: 15px;}
+footer .nav { margin: 0 auto; width: 131px; padding: 0; }
+footer .nav a {font-size: 40px;}
 footer .row-logo {margin-top: -20px;     margin-bottom: 19px;}
 footer .nav li {text-align: center; display: inline-block;}
 footer .nav span,

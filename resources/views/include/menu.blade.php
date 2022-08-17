@@ -50,7 +50,7 @@
         <li><a href="#" onclick="document.getElementById('logout-form').submit();">SAIR</a></li>
         <li><a class="link-popup" href="#popup-atualizar">Olá <?php print Auth::user()->name; ?></a></li>
         @endauth
-        <img class="logo-menu" src="/assets/images/logo-home.png" alt="Promoção Broto Legal">
+        <img class="logo-menu" src="/assets/images/geral-logo.png" alt="Promoção Broto Legal">
         
     </ul>
 </div>
