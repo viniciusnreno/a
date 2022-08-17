@@ -13,7 +13,6 @@
                     <li><a class="link-popup active" href="#popup-cupom"><i class="material-icons prefix">receipt</i>CADASTRAR <br class="hide-on-med-and-up">CUPOM</a></li>
                     <li><a class="link-popup" onclick="validaParticipacoes()" href="#popup-minhas-participacoes"><i class="material-icons prefix">border_color</i>MINHA <br class="hide-on-med-and-up">PARTICIPAÇÃO</a></li>
                     <li><a class="link-popup" href="#popup-atualizar"><i class="material-icons prefix">account_circle</i>MEUS DADOS</a></li>
-                    <li><a class="link-popup" href=""><i class="material-icons prefix">assignment</i></a></li>
                 </ul>
             </div>
         </div>
@@ -51,15 +50,21 @@
                     <i class="material-icons prefix tooltipped" data-position="top" data-tooltip="<img src='/assets/images/cupom-fiscal-data-da-compra.jpg' style='max-width:100%' />">help_outline</i>
                 </div>
                 <div class="input-field col s12">
-                    <i class="material-icons prefix">shopping_cart</i>
-                    <input id="qtd" name="qtd" type="text" class="validate" maxlength = "1">
-                    <label for="qtd">Informe a quantidade de Telas Toshiba 4k UHD adquiridas</label>
-                </div>
-                <div class="input-field col s12">
                     <i class="material-icons prefix">attach_money</i>
                     <input data-audience="[&quot;área-logada&quot;, &quot;cadastrar-cupom&quot;, &quot;qtd-brioches&quot;]" id="valor" name="valor" class="validate" type="text">
-                    <label for="valor" class="valor-total">Informe o valor de sua compra</label>
+                    <label for="valor" class="valor-total">Informe o valor de sua compra em produtos Broto Legal participantes </label>
                 </div>
+                <div class="col s12 box-retirada">
+                    <span>Já retirou o brinde na loja?</span>
+                    <label>
+                        <input type="checkbox" name="confirma_retirada" id="confirma_retirada" onclick="Desmarcar('confirma_retirada','recusa_retirada');" validate="checkbox"  />
+                        <span>Sim</span>
+                    </label>
+                    <label>
+                        <input type="checkbox" name="recusa_retirada" id="recusa_retirada" onclick="Desmarcar('confirma_retirada','recusa_retirada');" validate="checkbox"  />
+                        <span>Não</span>
+                    </label>
+                </div> <br>
                 <!-- <div class="input-field col s12 adicionar-numero">
                     <p>Informe abaixo a quantidade dos Bolinhos e Biscoito Toshiba adquiridos</p>
                     <ul class="produtos">
@@ -69,12 +74,12 @@
                         
                     </ul>
                 </div> -->
-
+<!-- 
                 <div class="alteracao">
                     <span>ENVIE SEU CUPOM FISCAL E SAIBA NA HORA<br>
                     SE GANHOU UMA CAMISA OU BOLA <br>
                     AUTOGRAFADA PELO CAFU!</span>
-                </div>
+                </div> -->
                 <div class="btn-enviar-cupom col s12 div-cupom">
                     <button class="waves-effect waves-light btn btn-cupom">ENVIAR</button> 
                 </div>
@@ -85,10 +90,9 @@
                     </div>
                     <ul>
                         <li><i class="material-icons left">keyboard_arrow_right</i>A foto do seu cupom deve conter o <strong>CNPJ do estabelecimento, número do cupom e data da compra.</strong></li>
-                        <li><i class="material-icons left">keyboard_arrow_right</i>O cupom cadastrado deve ter no mínimo <strong>1 Tela Toshiba 4k UHD</strong></li>
-                        <li><i class="material-icons left">keyboard_arrow_right</i>A cada cupom cadastrado você terá<strong> 1 (uma) chance</strong> de concorrer ao prêmio instantâneo.</li>
-                        <li><i class="material-icons left">keyboard_arrow_right</i>Limite de <strong>3 prêmios na hora</strong> por CPF.</li>
-                        <li><i class="material-icons left">keyboard_arrow_right</i>Limite de <strong>30 cupons fiscais</strong> cadastrados por CPF.</li>
+                        <li><i class="material-icons left">keyboard_arrow_right</i>Limite de <strong>3 brindes</strong> por CPF.</li>
+                        <li><i class="material-icons left">keyboard_arrow_right</i>Limite de <strong>100 números da sorte</strong> por CPF.</li>
+                        <li><i class="material-icons left">keyboard_arrow_right</i>Limite de <strong>20 cupons fiscais</strong> cadastrados por CPF.</li>
                         <li><i class="material-icons left">keyboard_arrow_right</i>Seu cupom só pode ser cadastrado 1 vez</li>
                     </ul>
                     <p class="alerta-final">GUARDE SEU CUPOM FISCAL, ELE PODERÁ SER SOLICITADO.</p>
@@ -105,6 +109,12 @@
 
 @section('cadastrar-cupom-scripts')
 <script>
+function Desmarcar(confirma, recusa){
+    if (document.getElementById(confirma).checked){
+        document.getElementById(recusa).checked=false;
+    }
+}
+
 function Checkfiles(){
     var fup = document.getElementById('filename');
     var fileName = fup.value;

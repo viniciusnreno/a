@@ -277,7 +277,7 @@ Box Participar
 .box-participar .whats-num {font-size: 28px; display: inline;}
 .box-participar .whats-img {width: 32px; position: relative; left: 6px; top: 3px;}
 .box-participar p { margin: 0; line-height: 1; font-size: 23px;  font-family: 'robotoc-regular'; color: #fff; }
-.box-participar strong  {font-family: 'robotoc-regular'; color: #fff; display: inline-block; text-shadow: 0px 0px 10.746px #52ee65; font-weight: bold; font-size: 29px;}
+.box-participar strong  {font-family: 'robotoc-regular'; color: #fff; display: inline-block; font-weight: bold; font-size: 29px;}
 .box-participar small { font-size: 11px; }
 .box-participar .row {margin: 25px auto 0 auto; max-width: 740px;}
 .box-participar .col {padding: 0;}
@@ -474,8 +474,8 @@ Popup status default
 *****************/
 .popup-status {text-align: center; padding: 25px 85px 0px 85px !important; } 
 .popup-status .col {padding: 0;} 
-.popup-status h1 {font-size: 40px; letter-spacing: 4px; font-family: "robotoc-regular"; font-weight: bold; text-shadow: 0px 0px 10.746px #52ee65; color: #fff; margin: 0;}
-.popup-status h2 {font-size: 37px; letter-spacing: 4px; font-family: "robotoc-regular"; font-weight: bold; text-shadow: 0px 0px 10.746px #52ee65; color: #fff; margin: 8px 0 0 0;}
+.popup-status h1 {font-size: 40px; letter-spacing: 4px; font-family: "robotoc-regular"; font-weight: bold; color: #FFD34D; margin: 0;}
+.popup-status h2 {font-size: 37px; letter-spacing: 4px; font-family: "robotoc-regular"; font-weight: bold; color: #FFD34D; margin: 8px 0 0 0;}
 .popup-status p {font-family: "robotoc-regular"; font-size: 22px; color: #FFD34D; line-height: 1.2; letter-spacing: 2px;}
 .popup-status span {color: #fff;}
 .popup-status .logo-status {width: 313px; margin-bottom: 25px ;}
@@ -486,7 +486,7 @@ Popup status default
 .popup-status .box-convocar p {margin: 15px 0 10px 0;}
 .popup-status .box-convocar span {font-weight: bold; color: #FFD34D;}
 .popup-status .box-convocar .botoes {display: flex; justify-content: space-around; width: 308px; margin: 0 auto;}
-.popup-status .box-convocar .botoes a {font-size: 15px; line-height: 1.3; background-color: #004A2D; color: #fff; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold; text-shadow: 0px 0px 10.746px #52ee65; padding: 6px 0 0 0; height: 49px; width: 132px; }
+.popup-status .box-convocar .botoes a {font-size: 15px; line-height: 1.3; background-color: #000; color: #FFD34D; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold; padding: 6px 0 0 0; height: 49px; width: 132px; }
 
 .popup-status .redes .input-field input:hover {box-shadow: none !important; -webkit-box-shadow:none !important; border-bottom: none !important;}
 .popup-status .redes .setinhas[type=number]::-webkit-inner-spin-button { -webkit-appearance: none;}
@@ -546,7 +546,7 @@ Popup enviar sucesso
 *****************/
 .popup-enviar-sucesso p {margin: 0}
 .popup-enviar-sucesso h2 {font-size: 31px; line-height: 1.2; padding-top: 20px;}
-.popup-enviar-sucesso .resultado {margin: 0 auto; line-height: 2;  width: 342px; height: 46px; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold; text-shadow: 0px 0px 10.746px #52ee65; color: #fff; background-color: rgba(10,23,55,0.3);}
+.popup-enviar-sucesso .resultado {margin: 0 auto; line-height: 2;  width: 342px; height: 46px; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold; color: #FFD34D; background-color: 000;}
 .popup-enviar-sucesso .resultado.arroba {margin: 6px auto 39px auto;}
 .popup-enviar-sucesso .resultado.nome {margin: 6px auto 13px auto;}
 .popup-enviar-sucesso .row {max-width: 575px; padding-top: 0; margin: -18px auto 0 auto; height: 418px;}
@@ -583,7 +583,7 @@ Popup enviar postagem
 .popup-enviar-postagem .redes input {max-width: 533px; padding-left: 2px; background-color: rgba(10,23,55,0.3);color: #81BC7F !important; border: none;   font-family: 'robotoc-regular'; font-weight: bold; letter-spacing: 2px;}
 .popup-enviar-postagem .redes label { text-align: center; color: #fff;font-size: 16px; font-family: 'robotoc-regular'; font-weight: bold; letter-spacing: 2px; }
 .popup-enviar-postagem  p.txt-placa { font-size: 18px;margin: 0; line-height: 1.2; }
-.popup-enviar-postagem  strong {display: inline-block; margin-top: 7px; color: #fff; text-shadow: 0px 0px 6.09042px #52ee65; font-weight: bold; font-size: 30px;}
+.popup-enviar-postagem  strong {display: inline-block; margin-top: 7px; color: #FFD34D; font-weight: bold; font-size: 30px;}
 .popup-enviar-postagem  span.hashtag {font-weight: normal; line-height: 3;}
 .popup-enviar-postagem  span.vip {color: #FFD34D;}
 .popup-enviar-postagem  small {font-size: 16.8px; }
@@ -597,7 +597,7 @@ Popup enviar postagem
 .popup-enviar-postagem .box-midias p {margin: 5px 0 0 0 ; font-size: 18px;}
 .popup-enviar-postagem .box-confirme {max-width: 190px; position: absolute; bottom: 65px; right: 0;}
 .popup-enviar-postagem .box-confirme .botoes {display: flex; justify-content: space-between; width: 175px; margin: 0 auto;}
-.popup-enviar-postagem .box-confirme .botoes a {font-size: 20px; line-height: 1.9; background-color: #004A2D; color: #fff; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold; text-shadow: 0px 0px 10.746px #52ee65; padding: 6px 0 0 0; height: 46px; width: 77px;}
+.popup-enviar-postagem .box-confirme .botoes a {font-size: 20px; line-height: 1.9; background-color: #000; color: #FFD34D; letter-spacing: 2px; font-family: "robotoc-regular"; font-weight: bold;  padding: 6px 0 0 0; height: 46px; width: 77px;}
 .popup-enviar-postagem .box-confirme p {font-size: 21px; margin: 0;}
  .popup-canvas .btn:hover,
  .popup-canvas .btn {font-family: 'robotoc-regular'; font-weight: bold; font-size: 21px !important; line-height: 2; margin: 40px 0 25px 0;}
@@ -824,9 +824,9 @@ textarea.materialize-textarea:focus:not([readonly]),
 .btn:hover, .btn-large:hover, .btn-small:hover, .btn, .btn-large, .btn-small
 .input-field button.btn,
 .btn-enviar input.waves-button-input, .btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus,
-.btn-enviar button { background-color: #033B24 !important;text-shadow: 0px 0px 12.2102px #52EE65; color: #fff; font-size: 34px !important; font-family: 'creamy'; line-height: 1.2; }
+.btn-enviar button { background-color: #000 !important; color: #FFD34D; font-size: 34px !important; font-family: 'robotoc-regular'; line-height: 1.2; }
 .btn-popup:hover,
-.btn-popup { font-family: 'robotoc-regular'; font-weight: bold; color: #fff;}
+.btn-popup { font-family: 'robotoc-regular'; font-weight: bold; color: #FFD34D;}
 #formCupom .input-field {margin-top: 0;}
 .input-field a.right,
 .input-field .tooltipped { position: absolute; top:0; right: 0;}
@@ -838,6 +838,9 @@ textarea.materialize-textarea:focus:not([readonly]),
 #popup-fale-conosco .obs-valores {font-size: 12px;margin-left: 3rem;margin-top: 0; }
 #popup-fale-conosco .colado {margin: -5px; margin-left: 45px;}
 #popup-fale-conosco .obs-valores strong { font-weight: bold  }
+#popup-cadastro .obs-valores {font-size: 12px;margin-left: 3rem;margin-top: 0; }
+#popup-cadastro .colado {margin: -5px; margin-left: 45px;}
+#popup-cadastro .obs-valores strong { font-weight: bold  }
 
 
 /* Radio selecionado */
@@ -913,7 +916,7 @@ Popup: Celular
 #popup-telefone .btn-nao-cadastrado:hover,
 #popup-telefone .btn-nao-cadastrado {width: 294px; font-family: "robotoc-regular"; font-weight: bold; font-size: 30px !important; line-height: 2.1; height: 57px; }
 #popup-telefone .btn-entrar:hover,
-#popup-telefone .btn-entrar {line-height: 2; width: 285px;font-family: "robotoc-regular"; font-weight: bold; font-size: 32px !important; height: 56px;}
+#popup-telefone .btn-entrar {line-height: 1; width: 285px;font-family: "robotoc-regular"; font-weight: bold; font-size: 32px !important; height: 56px;}
 
 .file-field .file-path-wrapper { padding-left:45px }
 
@@ -950,18 +953,18 @@ Popup: Menu interno da logado
 /* .menu-logado {width: 68%;}
 .nav-popup li {width: 33.3333%; text-align: center;} */
 /* APENAS MOBILE */
-.nav-popup {background: #FFD34D; }
-.nav-popup li a { color: #fff; background-color: #FFD34D; }
+.nav-popup {background: #000; }
+.nav-popup li a { color: #FFD34D; background-color: #000; }
 .nav-popup li a:active,
 .nav-popup li a:focus,
-.nav-popup li a:hover{color: #FFD34D; background-color: #FFD34D; }
-.nav-popup .active { color: #FFD34D !important; background-color: #FFD34D !important; }
+.nav-popup li a:hover{color: #000; background-color: #FFD34D; }
+.nav-popup .active { color: #000 !important; background-color: #FFD34D !important; }
 @media only screen and (max-width: 600px) {
     .nav-popup { margin-bottom:15px; }
     .nav-popup li:nth-child(1) { width:33%; }
     .nav-popup li:nth-child(2) { width:39%; }
     .nav-popup li:nth-child(3) { width:27%; }
-    .nav-popup li a {height: 57px; width:100%; font-size: 13px; padding:0; line-height:1; padding:6px 3px; }
+    .nav-popup li a {height: 57px; width:100%; font-size: 9px; padding:0; line-height:1; padding:6px 3px; }
     .nav-popup li i { display:block; font-size:15px; height: 20px; line-height: 1; }
 }
 
@@ -969,23 +972,22 @@ Popup: Menu interno da logado
 @media only screen and (min-width: 601px) {
     .formLogin .padd-top { padding-top: 8px !important; }
     .pad-left {padding-left: 57px !important}
-    .nav-popup {  margin-bottom:25px;  }
-    .nav-popup li { width: 25%;}
-    .nav-popup li a {height: auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width:auto; font-size: 8px; font-family: "robotoc-regular"; padding:0 15px; }
+    .nav-popup {  margin-bottom:25px; margin-top:65px; }
+    .nav-popup li { width:auto}
+    .nav-popup li a {height: auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width:auto; font-size: 10px; font-family: "robotoc-regular"; padding:0 15px; }
     .nav-popup li i { float:left; margin-right:5px; font-size:24px }
 }
 @media only screen and (min-width: 1024px) {
-    .nav-popup li a { font-size: 10px; }
-    .nav-popup li { width:17.8%}
-    .nav-popup li a { font-size:11px;}
+    .nav-popup li { width:23.7%}
+    .nav-popup li a { font-size:14px;}
 }
 
 @media only screen and (min-width: 1346px) {
-    .nav-popup li { width:13.25%}
+    .nav-popup li { width:18.1%}
 }
 #mobile-nav .resgate ul { margin-left:25px; }
 #mobile-nav .resgate ul li i { margin:0 }
-#mobile-nav .sub-title{ color: #fff; font-size: 14px; margin-top: -14px; }
+#mobile-nav .sub-title{ color: #FFF200; font-size: 14px; margin-top: -14px; }
 
 
 /******************
@@ -1000,6 +1002,9 @@ Popup: Cadstrar Cupom
 .cupom .p-wrapper .obs-valores { font-size: 12px;margin-left: 3rem;margin-top: 0; }
 .cupom .p-wrapper .colado { margin: 0px; color: #FFD34D;}
 .cupom .p-wrapper .obs-valores strong { font-weight: bold  }
+.cupom .p-wrapper .box-retirada {padding-left: 54px; padding-bottom: 40px;}
+.cupom .p-wrapper .box-retirada span {font-size: 15px; font-family: 'robotoc-regular';color: #9e9e9e ;}
+.cupom .p-wrapper .box-retirada label {padding-left: 20px;}
 /* Ãrea adicionar quantidade de produtos */
 .cupom .p-wrapper .adicionar-numero label,
 .cupom .p-wrapper .adicionar-numero {    padding-left: 10px; font-size:14px; margin:0; font-family: "robotoc-regular" ;color:#000; }
@@ -1031,9 +1036,9 @@ Popup: Cadstrar Cupom
 /* Alerta antes do envio do cupom */
 .cupom .p-wrapper .alteracao {color: #000; text-align: center; padding: 3px 0px; width: 100%; margin-top: 35px; border-radius: 5px;}
 .cupom .p-wrapper .alteracao span {font-size: 19px; display: block; color: #FFD34D; font-family: 'robotoc-regular'; line-height: 1.2; font-weight: bold; letter-spacing: 1.7px;}
-.cupom .p-wrapper .btn-cupom { background-color: #033B24 !important; font-weight: bold; padding: 0 70px; margin: 0 auto; font-size: 32px !important; font-family: 'robotoc-regular'; height: 56px; color: #fff;}
+.cupom .p-wrapper .btn-cupom { background-color: #000 !important; font-weight: bold; padding: 0 70px; margin: 0 auto; font-size: 32px !important; font-family: 'robotoc-regular'; height: 56px; color: #FFD34D;}
 .cupom .p-wrapper .div-cupom {text-align: center; margin-top: 19px !important}
-.cupom .p-wrapper .alert {background:#FFD34D; color:#FFD34D; text-align: center; padding: 3px 0px 12px 0; width:100%; margin-top: 15px }
+.cupom .p-wrapper .alert {background:#000; color:#FFD34D; text-align: center; padding: 3px 0px 12px 0; width:100%; margin-top: 15px }
 .cupom .p-wrapper .alert i { font-size: 35px; }
 .cupom .p-wrapper .alert span {font-family: 'robotoc-regular'; line-height: 14px; font-size: 17px; font-weight: bold; display: block; }
 .cupom .p-wrapper  li { overflow:hidden; line-height:23px }

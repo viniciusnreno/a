@@ -30,14 +30,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/js/jquery-loading/jquery-loading.min.css?v1') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/js/jAlert/jAlert.css') }}">
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HMSYWG1Y0"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TL7DLDCSXB"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-3HMSYWG1Y0');
+    gtag('config', 'G-TL7DLDCSXB');
     </script>
 
 </head>

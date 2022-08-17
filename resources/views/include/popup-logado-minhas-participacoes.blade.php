@@ -12,7 +12,6 @@
                     <li><a class="link-popup" href="#popup-cupom"><i class="material-icons prefix">receipt</i>CADASTRAR <br class="hide-on-med-and-up">CUPOM</a></li>
                     <li><a class="link-popup active" onclick="validaParticipacoes()" href="#popup-minhas-participacoes"><i class="material-icons prefix">border_color</i>MINHA <br class="hide-on-med-and-up">PARTICIPAÇÃO</a></li>
                     <li><a class="link-popup" href="#popup-atualizar"><i class="material-icons prefix">account_circle</i>MEUS DADOS</a></li>
-                    <li><a class="link-popup" href=""><i class="material-icons prefix">assignment</i></a></li>
                 </ul>
             </div>
         </div>

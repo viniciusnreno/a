@@ -44,27 +44,45 @@
                     <input id="dt_nascimento" name="dt_nascimento" type="text" class="validate">
                     <label for="dt_nascimento">Nascimento*</label>
                 </div>
-                <div id="divCompanyCPF" class="input-field col s12 hide">
-                    <i class="material-icons prefix">contact_mail</i>
-                    <input id="company_person_cpf" name="company_person_cpf" type="text" class="validate" inputmode="numeric" maxlength="14">
-                    <label for="company_person_cpf">CPF</label>
-                </div>
                 <div class="input-field col s12">
                     <i class="material-icons prefix">contact_mail</i>
-                    <input id="documento" name="documento" type="text" class="validate" inputmode="numeric">
+                    <input id="documento" name="documento" type="text" class="validate" inputmode="numeric" maxlength="14">
                     <label for="documento">CPF</label>
                 </div>
-                <div class="input-field col s12 browser-default">
+                <div class="input-field col s12 selectEstado">
                     <i class="material-icons prefix">map</i>
                     <select id="estado" name="estado" class="validate">
-                    <option value="#" selected>Selecione</option>                        
-                        <option value="MG"><span>MG</span></li>                        
-                        <option value="PR"><span>PR</span></li>                        
-                        <option value="RJ"><span>RJ</span></li>                        
-                        <option value="SC"><span>SC</span></li>
-                        <option value="SP"><span>SP</span></li>                        
+                        <option value="#" selected>Selecione</option>
+                        <option value="SP"><span>SP</span></li>
+                        <option value="PR"><span>PR</span></li>
                     </select>
                     <label>Estado*</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">home</i>
+                    <input id="endereco" name="endereco" type="text" class="validate" data-error="Informe o endereço">
+                    <label for="endereco">Endereço*</label>
+                    <p class="obs-valores colado"><strong>Atenção</strong>: Esse será o endereço usado para envio do brinde. </p>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">add</i>
+                    <input id="numero" name="numero" type="text" class="validate" data-error="Informe o número">
+                    <label for="numero">Número*</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">add</i>
+                    <input id="bairro" name="bairro" type="text">
+                    <label for="bairro">Bairro</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">location_city</i>
+                    <input id="cidade" name="cidade" type="text" class="validate">
+                    <label for="cidade">Cidade</label>
+                </div>
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">location_on</i>
+                    <input id="cep" name="cep" type="text" class="validate">
+                    <label for="cep">CEP</label>
                 </div>
 
                 <div class="check-regulamento col s12 pad-left">
@@ -374,7 +392,7 @@ $( document ).ready(function() {
                 {
                     required: true
                 },
-                complemento: 
+                bairro: 
                 {
                     required: false
                 },
@@ -462,8 +480,8 @@ $( document ).ready(function() {
 				numero: {
 					required: 'Preencha o seu número'
 				},
-				complemento: {
-					required: 'Preencha o complemento'
+				bairro: {
+					required: 'Preencha o bairro'
 				},
 				bairro: {
 					required: 'Preencha o seu bairro'
