@@ -1,25 +1,25 @@
 <footer>
-    <!-- <div class="container">
+    <div class="container">
         <div class="row si">
             <ul class="nav">
                 <li><a class="link-popup" href="#popup-fale-conosco">FALE CONOSCO</a></li>
             </ul>
         </div>
         <div class="row row-logo">
-            <a target="_blank" href="https://www.toshiba.com.br/index"><img class="logo-footer" src="/assets/images/logo-rodape.png" alt="Promoção Cartão VIP Toshiba"></a>
+            <a target="_blank" href="https://brotolegal.com.br/"><img class="logo-footer" src="/assets/images/logo-rodape.png" alt="Broto Legal"></a>
         </div>
         <div class="row">
                 <ul class="redes">
-                    <li><a class="twitter" href="https://www.facebook.com/toshibalifestyleBR/" alt="Facebook" target="_blank">Facebook</a></li>
-                    <li class="meio"><a class="youtube" href="https://www.instagram.com/toshiba.lifestyle.brasil/" alt="Instagram" target="_blank">Instagram</a></li>
-                    <li><a class="instagram" href="" alt="Youtube" target="_blank">Youtube</a></li>
+                    <li><a class="twitter" href="https://www.facebook.com/brotolegalalimentos" alt="Facebook" target="_blank">Facebook</a></li>
+                    <li class="meio"><a class="youtube" href="https://www.instagram.com/brotolegal/" alt="Instagram" target="_blank">Instagram</a></li>
+                    <li><a class="instagram" href="https://www.youtube.com/user/brotolegalalimentos" alt="Youtube" target="_blank">Youtube</a></li>
                 </ul>
             </div>
             <div class="row last">
                 <p class="col s10 push-s1 promocao font-bold">nononononononnonnonono</p>
             </div>
         </div>
-    </div> -->
+    </div>
 </footer>
 <!-- Js -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

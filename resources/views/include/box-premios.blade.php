@@ -1,6 +1,6 @@
 <section id="box-premios1" class="box box-premios scrollspy">
     <div class="container">
-        <img class="logo hide-on-med-only" src="/assets/images/geral-logo.png" alt="Promoção Cartao VIP Toshiba">
+        <img class="logo hide-on-med-only" src="/assets/images/geral-logo.png" alt="Cozinha Legal é com a Broto Legal">
         <div class="box-texts">
             <div class="txt1">
                 <img src="/assets/images/graos.png" alt="graos">
@@ -25,8 +25,14 @@
 <section id="box-premios2" class="box box-premios scrollspy">
     <div class="container">
         <img class="logo hide-on-med-only" src="/assets/images/geral-logo.png" alt="Promoção Cartao VIP Toshiba">
-
-    </div>
+        <h1>SORTEIO  EM  00/00/22</h1>
+        <p class="txt1">Suas  receitas  Broto Legal <br>
+        com  muito  mais <br>
+        praticidade  E  SABOR!</p>
+        <p class="txt2">SUGESTÃO DE UTILIZAÇÃO DO PRÉMIO <br>
+        **Kits de panelas elétricas entregues por meio de<br>
+        cartões-presentes pré-pagos, sem função saque.</p>
+    </div> 
 </section>
 
 

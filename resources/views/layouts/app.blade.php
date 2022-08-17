@@ -2,13 +2,13 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
-    <title>Promoção Cartao VIP Toshiba</title>
+    <title>Cozinha Legal é com a Broto Legal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <meta name="description" content="Promoção Cartao VIP Toshiba"/>
+    <meta name="description" content="Cozinha Legal é com a Broto Legal"/>
     <link rel="icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
-    <meta property="og:description" content="Promoção Cartao VIP Toshiba" />
+    <meta property="og:description" content="Cozinha Legal é com a Broto Legal" />
     <meta property="og:image" content="https://cartaoviptoshiba.com.br/assets/images/fb-img.jpg">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:height" content="600">
