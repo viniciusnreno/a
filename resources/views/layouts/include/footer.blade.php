@@ -8,7 +8,7 @@
         <div class="row row-logo">
             <a target="_blank" href="https://brotolegal.com.br/"><img class="logo-footer" src="/assets/images/logo-rodape.png" alt="Broto Legal"></a>
         </div>
-        <div class="row">
+            <div class="row">
                 <ul class="redes">
                     <li><a class="twitter" href="https://www.facebook.com/brotolegalalimentos" alt="Facebook" target="_blank">Facebook</a></li>
                     <li class="meio"><a class="youtube" href="https://www.instagram.com/brotolegal/" alt="Instagram" target="_blank">Instagram</a></li>
