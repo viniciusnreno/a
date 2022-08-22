@@ -57,11 +57,11 @@
                 <div class="col s12 box-retirada">
                     <span>Já retirou o brinde na loja?</span>
                     <label>
-                        <input type="checkbox" name="confirma_retirada" id="confirma_retirada" onclick="Desmarcar('confirma_retirada','recusa_retirada');" validate="checkbox"  />
+                        <input type="radio" name="confirma_retirada" id="confirma_retirada" validate="checkbox" checked="checked"  value="1" />
                         <span>Sim</span>
                     </label>
                     <label>
-                        <input type="checkbox" name="recusa_retirada" id="recusa_retirada" onclick="Desmarcar('confirma_retirada','recusa_retirada');" validate="checkbox"  />
+                        <input type="radio" name="confirma_retirada" id="confirma_retirada" validate="checkbox" value="0" />
                         <span>Não</span>
                     </label>
                 </div> <br>
